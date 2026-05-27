@@ -313,21 +313,16 @@ It does not control cold start.
 
 ## Math-Based Metrics
 | Metric             | Purpose                                                            |
-| ------------------ | ------------------------------------------------------------------ |
-| Entity Coverage    | Checks whether query entities appear in retrieved results.         |
-| Modality Coverage  | Checks whether required modalities are available.                  |
 | Context Precision  | Checks how many retrieved contexts are relevant to query entities. |
-| Retrieval Strength | Uses final retrieval score strength.         
-|
+        
+
 These are calculated using formulas.
 
 ## LLM-Based Metrics
 | Metric             | Purpose                                                 |
 | ------------------ | ------------------------------------------------------- |
 | Answer Relevancy   | Checks whether answer addresses the query.              |
-| Context Recall     | Checks whether answer uses important retrieved context. |
-| Answer Correctness | Checks whether answer is correct according to context.  |
-| Faithfulness       | Checks whether answer avoids unsupported claims.        |
+
 
 
 These are evaluated by Gemini 2.5 Flash as a judge.
@@ -350,7 +345,7 @@ tell me about Taj Mahal
 
 give me Taj Mahal images
 
-→ text + 2 images
+→ 2 images
 
 give me Taj Mahal audio
 
