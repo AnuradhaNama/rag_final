@@ -65,22 +65,39 @@ System returns:
 
 
 ## 4. Tech Stack
+
 ## Backend
+
 Python
+
 FastAPI
+
 Uvicorn
+
 ChromaDB
+
 BM25Okapi
+
 Wikipedia API
+
 Requests
+
 FFmpeg
+
 Gemini API
+
 ## Frontend
+
 HTML
+
 CSS
+
 JavaScript
+
 ## AI Models
+
 Gemini Embedding 2
+
 Gemini 2.5 Flash
 
 
