@@ -27,8 +27,11 @@ System returns:
 
 ## 2. Project Structure
 backend/
+
 │
+
 ├── app/
+
 │   ├── main.py
 │   ├── config.py
 │   ├── embeddings.py
