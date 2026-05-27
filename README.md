@@ -26,47 +26,10 @@ System returns:
 
 
 ## 2. Project Structure
-backend/
-
-│
-
-├── app/
-
-│   ├── main.py
-│   ├── config.py
-│   ├── embeddings.py
-│   ├── vector_store.py
-│   ├── bm25_store.py
-│   ├── hybrid.py
-│   ├── reranker.py
-│   ├── ingestion.py
-│   ├── cold_start.py
-│   ├── dedupe_store.py
-│   ├── intent.py
-│   ├── response_router.py
-│   ├── evaluation.py
-│   └── logger.py
-│
-├── data/
-│   ├── chroma_db/
-│   ├── media/
-│   ├── bm25_index.pkl
-│   └── dedupe_state.json
-│
-├── logs/
-│   └── pipeline.log
-│
-└── requirements.txt
-
-frontend/
-│
-├── index.html
-├── script.js
-└── style.css
 
 
 ## 3. File Explanation                                                                                         
-**main.py** - Main backend controller. Handles query flow, retrieval, cold start, evaluation logs,               and response.
+**main.py** - Main backend controller. Handles query flow, retrieval, cold start, evaluation logs,and response.
 
 **config.py** - Stores API key, model names, paths, and modality thresholds.
 
