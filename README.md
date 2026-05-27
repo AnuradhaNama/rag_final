@@ -104,34 +104,53 @@ Gemini 2.5 Flash
 ## 5. What Backend Handles
 
 ## Backend handles:
+
 Query receiving
+
 Intent detection
+
 Query embedding
+
 Vector search
+
 BM25 search
+
 RRF merging
+
 Entity reranking
+
 Final relevance gate
+
 Cold start
+
 Wikipedia scraping
+
 Media download
+
 Deduplication
+
 Response routing
+
 Evaluation logging
 
 
 ## 6. What LLM Handles
 
 LLM is used for:
+
 Generating text answers from retrieved context
+
 Describing image/audio/video for BM25 keyword search
+
 Evaluating final answer quality in evaluation.py
+
 LLM is not used for the main retrieval decision.
 
 
 ## 7. What Embedding Handles
 
 Gemini Embedding 2 creates embeddings for:
+
 text → text embedding
 image → raw image embedding
 audio → raw audio embedding
