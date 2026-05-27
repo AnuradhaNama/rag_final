@@ -169,13 +169,10 @@ They are used only for BM25 keyword search and display support.
 
 Query is converted into one embedding vector.
 
-query = "give me lion video"
-↓
-Gemini Embedding 2
-↓
-query vector
+query = "give me lion video"-> Gemini Embedding 2 -> query vector
 
 ChromaDB compares query vector with stored vectors using cosine distance.
+
 Similarity is calculated as:
 
 vector_score = 1 - cosine_distance
@@ -320,7 +317,8 @@ It does not control cold start.
 | Entity Coverage    | Checks whether query entities appear in retrieved results.         |
 | Modality Coverage  | Checks whether required modalities are available.                  |
 | Context Precision  | Checks how many retrieved contexts are relevant to query entities. |
-| Retrieval Strength | Uses final retrieval score strength.                               |
+| Retrieval Strength | Uses final retrieval score strength.         
+|
 These are calculated using formulas.
 
 ## LLM-Based Metrics
